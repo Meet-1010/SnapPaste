@@ -6,6 +6,16 @@ A lightweight macOS menu-bar screenshot tool built for pasting into AI chats.
 
 SnapPaste never saves screenshots to disk. There is no history, gallery, account, network access, or telemetry. The current capture lives in memory only, and quitting the app discards it. Whatever you already copied stays on the system clipboard as usual.
 
+**Website and downloads: <https://snappaste-omega.vercel.app>**
+
+| Platform | Download | Notes |
+| --- | --- | --- |
+| macOS 14+ (Apple silicon & Intel) | [SnapPaste-macOS.dmg](https://github.com/Meet-1010/SnapPaste/releases/latest/download/SnapPaste-macOS.dmg) | Native Swift app (this folder) |
+| Windows 10/11 x64 | [SnapPaste-Windows-x64.exe](https://github.com/Meet-1010/SnapPaste/releases/latest/download/SnapPaste-Windows-x64.exe) | Beta: see [`crossplatform/`](crossplatform/README.md) |
+| Linux x86_64 | [SnapPaste-Linux-x86_64.tar.gz](https://github.com/Meet-1010/SnapPaste/releases/latest/download/SnapPaste-Linux-x86_64.tar.gz) | Beta: see [`crossplatform/`](crossplatform/README.md) |
+
+The downloaded macOS app is ad-hoc signed, not notarized. On first launch, go to **System Settings › Privacy & Security** and click **Open Anyway**.
+
 ## Requirements
 
 - macOS 14 Sonoma or later (developed and tested on macOS 27 with Xcode 27.1, Apple silicon)

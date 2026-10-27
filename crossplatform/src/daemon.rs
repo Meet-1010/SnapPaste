@@ -12,7 +12,7 @@ use std::process::{Child, Command, Stdio};
 use std::sync::mpsc::{channel, Receiver, Sender};
 use std::time::Duration;
 
-pub const WEBSITE: &str = "https://snappaste.vercel.app";
+pub const WEBSITE: &str = "https://snappaste-omega.vercel.app";
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub enum Cmd {
@@ -64,7 +64,7 @@ pub enum Event {
 
 pub fn run() -> Result<(), String> {
     if cfg!(target_os = "macos") {
-        return Err("On macOS, please use the native SnapPaste app (SnapPaste.dmg) from https://snappaste.vercel.app".into());
+        return Err("On macOS, please use the native SnapPaste app (SnapPaste.dmg) from https://snappaste-omega.vercel.app".into());
     }
     crate::platform::ensure_single_instance()?;
     let settings = Settings::load();
