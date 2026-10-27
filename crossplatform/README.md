@@ -22,7 +22,7 @@ cd SnapPaste && ./install.sh
 snappaste &
 ```
 
-Runtime requirements: a desktop with a system tray (StatusNotifier/AppIndicator), plus the GTK 3, AppIndicator and xdo libraries. On Debian/Ubuntu:
+Runtime requirements: a 2024-or-newer x86_64 distribution (glibc 2.39+, e.g. Ubuntu 24.04, Debian 13, Fedora 40), a desktop with a system tray (StatusNotifier/AppIndicator), plus the GTK 3, AppIndicator and xdo libraries. On Debian/Ubuntu:
 
 ```bash
 sudo apt install libgtk-3-0 libayatana-appindicator3-1 libxdo3

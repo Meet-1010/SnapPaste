@@ -26,8 +26,8 @@ jobs:
             os: windows-latest
             asset: SnapPaste-Windows-x64.exe
           - name: Linux x86_64
-            # Building on the oldest supported Ubuntu keeps the binary compatible with older glibc.
-            os: ubuntu-22.04
+            # PipeWire bindings (used by xcap) need the newer headers in Ubuntu 24.04.
+            os: ubuntu-24.04
             asset: SnapPaste-Linux-x86_64.tar.gz
     runs-on: ${{ matrix.os }}
     defaults:
