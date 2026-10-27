@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=SnapPaste
+GenericName=Screenshot Tool
+Comment=Capture, annotate and paste screenshots straight from the clipboard
+Exec=snappaste
+Icon=snappaste
+Terminal=false
+Categories=Utility;Graphics;
+Keywords=screenshot;capture;clipboard;ocr;annotate;
+StartupNotify=false
